@@ -153,7 +153,8 @@ bar {
 bindsym $mod+Shift+a exec "keepass2 -auto-type"
 bindsym $mod+s exec "shutter -s"
 
-exec --no-startup-id "setxkbmap -model pc105 -layout us,ru -option grp:alt_shift_toggle,caps:escape"
+# Keyboard layout
+exec --no-startup-id "setxkbmap -model pc105 -layout us,ru -option grp:caps_toggle"
 
 # NetworkManager applet
 exec --no-startup-id "nm-applet"
